@@ -123,19 +123,87 @@ header{
     padding: 12px;
     background-color: var(--pozadie);
     box-shadow:0 2px 8px rgba(0,0,0,0.08);
+    margin-bottom: 16px;
+    border-radius: 12px;
 }
 
 .karty_projekty h3{
-    
+    color: var(--footer);
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 700;
+    margin-bottom: 12px;
 }
 
 .karty_projekty p{
-    
+    color: var(--text);
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 300;
+    margin-bottom: 12px;
 }
 
 .karty_projekty span{
-    
+    color: var(--text);
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 300;
+    margin-bottom: 12px;
 }
+
+.karty_projekty img{
+    width:100%;
+    height:120px;
+    object-fit:cover;
+    border-radius: 8px;
+}
+
+.projekty_tlačidlo{
+    background-color: var(--farbahlavnamodra);
+    color: var(--pozadie);
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    font-family: Inter;
+    padding:12px 20px;
+    border-radius:8px;
+    font-size:16px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.10);
+    cursor:pointer;
+    margin-top: 8px;
+}
+
+.kontakt{
+    background-color: var(--sekcie);
+    text-align: center;
+    padding: 45px 16px;
+    margin-top: 48px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.10);
+}
+
+.kontakt h2{
+    color:var(--nadpisy) ;
+    font-family:Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.kontakt button{
+    background-color: var(--farbahlavnamodra);
+    color: var(--pozadie);
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    font-family: Inter;
+    padding:12px 20px;
+    border-radius:8px;
+    font-size:16px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.10);
+    cursor:pointer;
+    margin-bottom: 48px;
+}
+
 
 footer{
     background:var(--footer);
@@ -148,11 +216,6 @@ footer{
 }
 
 
-/* ==================== TABLET (768px+) ==================== */
-
-@media (min-width: 768px) {
-
-}
 
 /* ==================== DESKTOP (1024px+) ==================== */
 @media (min-width: 1024px){
