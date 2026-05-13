@@ -107,32 +107,35 @@ header{
     cursor:pointer;
 }
 
+.projekty {
+    padding: 24px 16px;
+}
 
+.projekty h2{
+    color: var(--nadpisy);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
 
+.karty_projekty{
+    padding: 12px;
+    background-color: var(--pozadie);
+    box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
 
+.karty_projekty h3{
+    
+}
 
+.karty_projekty p{
+    
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.karty_projekty span{
+    
+}
 
 footer{
     background:var(--footer);
