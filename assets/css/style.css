@@ -228,10 +228,10 @@ footer{
 }
 
 
-
+/*toto je podstránka KONTAKT!*/
 .kontakt_hero{
     text-align: center;
-    padding: 32px 16px;;
+    padding: 32px 16px;
 }
 
 
@@ -273,9 +273,71 @@ label{
     font-weight: 400;
     color:var(--text);
     margin-bottom: 16px;
+    margin-top: 16px;
+}
+input{
+    padding:16px;
+    background-color: var(--pozadie);
+    border-radius:8px ;
+    border: 1px solid var(--header);
+    font-size: 16px;
+    font-family: Inter;
+}
+textarea{
+    padding:16px;
+    background-color: var(--pozadie);
+    border-radius:8px ;
+    border: 1px solid var(--header);
+    font-size: 16px;
+    font-family: Inter;
+    height: 90px;
+    margin-bottom: 16px;
+}
+button{
+    background-color: var(--farbahlavnamodra);
+    color: var(--pozadie);
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    font-family: Inter;
+    padding:12px 20px;
+    border-radius:8px;
+    font-size:16px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.10);
+    cursor:pointer;
+}
+
+.kontakt_udaje{
+    text-align: center;
+    padding: 24px 16px;
 }
 
 
+.kontakt_udaje h2{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    color:var(--nadpisy);
+    margin-bottom: 16px;
+}
+.kontakt_udaje p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight:400 ;
+    color: var(--text);
+    margin-bottom: 12px;
+}
+.socialnesiete{
+    text-align: center;
+    padding: 24px 30px;
+}
+.socialnesiete h2{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    color:var(--nadpisy);
+    margin-bottom: 16px;
+}
 
 
 /* ==================== DESKTOP (1024px+) ==================== */
