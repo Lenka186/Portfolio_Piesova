@@ -340,6 +340,68 @@ button{
 }
 
 
+/*toto je podstránka O MNE!*/
+.omne_hero{
+    text-align: center;
+    padding: 32px 16px;
+    background-color: var(--sekcie);
+}
+.omne_hero img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:16px;
+}
+.omne_hero h1{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    color:var(--nadpisy);
+    margin-bottom: 16px;
+}
+.omne_hero p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight:400 ;
+    color: var(--text);
+    margin: 0px;
+}
+
+.omne_zrucnosti{
+    background-color: var(--pozadie);
+    padding:50px 15px 32px;
+}
+.omne_zrucnosti h2{
+    text-align:center;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 700;
+    color:var(--nadpisy);
+    margin-bottom: 16px;
+}
+
+
+.grid_zrucnosti{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap: 16px;
+}
+
+.zrucnost{
+    background-color: var(--pozadie);
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 4px 12px rgba(0,0,0,0.15);
+}
+.zrucnost img{                                 /*tu mi niečo nesedi!!!!*/
+    width:164px;
+    height: 120px;
+    display:block;
+    object-fit: cover;
+}
+
+
 /* ==================== DESKTOP (1024px+) ==================== */
 @media (min-width: 1024px){
 
