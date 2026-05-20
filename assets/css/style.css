@@ -427,38 +427,62 @@ button{
 }
 
 .projekty_obrazky{
-
+    padding:40px 16px 60px;
 }
 .projekt{
-
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+    align-items:flex-start;
 }
 
 .projekt img{
-    
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    object-fit:cover;
+    box-shadow:0 4px 10px rgba(0,0,0,0.10);
 }
-.projekt h3{
+
+.projekt_popis{
+   margin-bottom: 18px;
+}
+.projekt_popis h3{
     color: var(--footer);
     font-size: 18px;
     font-family: Inter;
     font-weight: 700;
     margin-bottom: 8px;
+    margin-top: 0px;
 }
 
-.projekt p{
+.projekt_popis p{
     color: var(--text);
     font-size: 14px;
     font-family: Inter;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 8px;
 }
-.projekt span{
+.projekt_popis span{
+    display: block;
     color: var(--text);
     font-size: 13px;
     font-family: Inter;
     font-weight: 300;
     margin-bottom: 8px;
 }
-
+.projekt_popis button{
+    background-color: var(--farbahlavnamodra);
+    color: var(--pozadie);
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+    font-family: Inter;
+    padding:8px 16px;
+    border-radius:8px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.10);
+    cursor:pointer;
+}
 
 
 
