@@ -402,6 +402,66 @@ button{
 }
 
 
+
+/*toto je podstránka PORTFÓLIO!*/
+
+.portfolio_hero{
+    text-align: center;
+    padding: 32px 16px;
+    background-color: var(--sekcie);
+    box-shadow:0 2px 8px rgba(0,0,0,0.05);
+}
+.portfolio_hero h1{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    color:var(--nadpisy);
+    margin-bottom: 16px;
+}
+.portfolio_hero p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight:400 ;
+    color: var(--text);
+    margin: 0px;
+}
+
+.projekty_obrazky{
+
+}
+.projekt{
+
+}
+
+.projekt img{
+    
+}
+.projekt h3{
+    color: var(--footer);
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.projekt p{
+    color: var(--text);
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+.projekt span{
+    color: var(--text);
+    font-size: 13px;
+    font-family: Inter;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+
+
+
+
 /* ==================== DESKTOP (1024px+) ==================== */
 @media (min-width: 1024px){
 
