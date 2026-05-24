@@ -329,9 +329,26 @@ button{
     margin-bottom: 16px;
 }
 
+.ikony_siete{
+    display:flex;
+    justify-content:center;
+    gap:16px;
+}
 
-
-
+.ikona{
+    width: 40px;
+    height: 40px;
+    background-color: var(--svetlamodra);
+    color: var(--footer);
+    border-radius:50%;
+    font-size: 18px;
+    font-family: Inter;
+    text-decoration:none;
+    box-shadow:0 4px 12px rgba(0,0,0,0.15);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
 
 
 /*toto je podstránka O MNE!*/
