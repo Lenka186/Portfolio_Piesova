@@ -12,6 +12,19 @@
     --text: #374151;
     --nadpisy:#111827;
     --footerpismo:#9CA3AF;
+
+
+
+    /* Písma 
+    --font-nadpisy: 'Poppins', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    
+    /* Medzery (v rem!) 
+    --medzery-sm: 1rem;      16px 
+    --medzery-md: 1.5rem;     24px 
+    --medzery-lg: 3rem;      48px 
+    --medzery-xl: 4rem;       64px 
+    */
 }
 
 body{
@@ -507,8 +520,8 @@ button{
 
 
 
-/* ==================== DESKTOP (1024px+) ==================== */
-@media (min-width: 1024px){
+/* ==================== DESKTOP (768px a viac) ==================== */
+@media (min-width: 768px){
 body{
     background-color: var(--sekcie);
 }
