@@ -35,6 +35,13 @@ header{
     font-family: Inter;
 }
 
+.podstranky{
+    text-decoration: none;
+    color: var(--nadpisy);
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+}
 .hero{
     background:var(--farbahlavnamodra);
     text-align:center;
@@ -509,16 +516,15 @@ header{
     background-color: var(--pozadie);
     margin-bottom: 64px;
 }
-nav{/*neviem ako toto*/
-    text-decoration: none;
-    color: var(--nadpisy);
+.logo{
+    margin-left: 80px;
+}
+.menu{
     display: flex;
     flex-direction: row;
     gap: 24px;
+    margin-right: 80px;
 }
-
-
-
 .logo{
     color:var(--farbahlavnamodra);
     font-size:20px;
@@ -552,20 +558,15 @@ nav{/*neviem ako toto*/
 .hero_button{
     background-color:var(--farbahlavnamodra);
     color:var(--pozadie);
-    text-decoration:none;
-    border-radius:8px;
-    font-size:16px;
-    font-weight:600;
     box-shadow:0 2px 4px rgba(0,0,0,0.10);
-    font-family: Inter;
     padding:24px 12px;
-    margin-top:16px;
 }
 
 .o_mne{
     background-color: var(--pozadie);
     padding: 24px 80px;
     box-shadow:0 2px 8px rgba(0,0,0,0.05);
+    margin-bottom: 64px;
 }
 
 .o_mne h2{
@@ -589,13 +590,94 @@ nav{/*neviem ako toto*/
 .o_mne_button{
     background-color: var(--farbahlavnamodra);
     color: var(--pozadie);
-    text-decoration: none;
-    font-family: Inter;
     padding:24px 12px;
-    border-radius:8px;
-    font-size:16px;
-    font-weight:600;
-    box-shadow:0 4px 10px rgba(0,0,0,0.10);
+    box-shadow:0 2px 4px rgba(0,0,0,0.10);
+}
+
+.projekty{
+    padding: 37px 246px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 64px;
+}
+.projekty h2{
+    text-align: center;
+    margin-bottom: 28px;
+}
+.karty_projekty{
+    background-color: var(--sekcie);
+    box-shadow: none;
+    padding: 0px;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+.desktop_projekty{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+}
+.karty_projekty img{
+    width:300px;
+    height:160px;
+    object-fit:cover;
+    border-radius: 8px;
+}
+
+.karty_projekty p{
+    font-size: 14px;
+}
+.karty_projekty span{
+    font-size: 12px;
+}
+.projekty_tlačidlo{
+    font-size: 16px;
+    padding:24px 12px;
+    margin-top: 28px;
+}
+.kontakt{
+    background-color: var(--pozadie);
+    padding: 32px 548px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.05);
+    margin-bottom: 64px;
+}
+.kontakt h2{
+    margin-bottom: 16px;
+}
+.kontakt_button{
+    box-shadow:0 2px 8px rgba(0,0,0,0.05);
+    padding:24px 12px;
+}
+footer{
+    padding: 31px 559px;
+}
+
+
+/*podstránka KONTAKT DESKTOP*/
+.kontakt_hero{
+    background:var(--pozadie);
+    text-align:center;
+    padding: 32px 80px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.05);
+    margin-bottom: 64px;
+}
+.kontakt_hero h1{
+    font-size: 32px;
+}
+.kontakt_formular{
+    
+}
+label{
+    font-size: 14px; 
+}
+textarea{
+    height: 120px;
+}
+button{
+    font-weight: 300;
+    padding:12px 24px;
 }
 
 
@@ -604,8 +686,71 @@ nav{/*neviem ako toto*/
 
 
 
+/*
+.kontakt_formular{
+    padding: 24px 16px;
+}
+
+
+.kontakt_udaje{
+    text-align: center;
+    padding: 24px 16px;
+}
+
+
+.kontakt_udaje h2{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    color:var(--nadpisy);
+    margin-bottom: 16px;
+}
+.kontakt_udaje p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight:400 ;
+    color: var(--text);
+    margin-bottom: 12px;
+}
+.socialnesiete{
+    text-align: center;
+    padding: 24px 30px;
+}
+.socialnesiete h2{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    color:var(--nadpisy);
+    margin-bottom: 16px;
+}
+
+.ikony_siete{
+    display:flex;
+    justify-content:center;
+    gap:16px;
+}
+
+.ikona{
+    width: 40px;
+    height: 40px;
+    background-color: var(--svetlamodra);
+    color: var(--footer);
+    border-radius:50%;
+    font-size: 18px;
+    font-family: Inter;
+    text-decoration:none;
+    box-shadow:0 4px 12px rgba(0,0,0,0.15);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+*/
+
+
+
+
+
 
 
 
 }
-
