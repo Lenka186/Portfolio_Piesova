@@ -758,6 +758,60 @@ button{
 
 
 
+/*podstránka desktop- O MNE!*/
+.omne_hero{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+    padding:80px 420px;
+    text-align:left;
+    background-color: var(--pozadie);
+    box-shadow:0 2px 8px rgba(0,0,0,0.05);
+    margin-bottom: 64px;
+}
+.omne_hero img{
+    width:160px;
+    height:160px;
+    margin-bottom:0px;
+}
+.omne_hero h1{
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+.omne_hero p{
+    max-width: 382px;
+}
+
+.omne_zrucnosti{
+    padding:50px 400px;
+    margin-bottom: 64px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.05);
+}
+.omne_zrucnosti h2{
+    font-size: 24px;
+    margin-bottom: 36px;
+}
+
+.grid_zrucnosti{
+    grid-template-columns:repeat(3,1fr);
+    /*margin:0 auto;*/
+    gap:24px;;
+}
+.zrucnost{
+    border-radius: 12px;
+}
+.zrucnost img{
+    width:220px;
+    height: 140px;
+}
+footer{
+    padding: 31px 559px;
+}
+
+
+
+/*podstránka desktop- PORTFOLIO!*/
 
 
 
