@@ -677,7 +677,7 @@ footer{
     font-size: 32px;
 }
 .kontakt_formular{
-    
+    padding: 20px 395px 20px 80px;
 }
 label{
     font-size: 14px; 
@@ -690,8 +690,9 @@ button{
     padding:12px 24px;
 }
 
-
-
+.grid_kontakt{
+    
+}
 
 
 
@@ -812,9 +813,17 @@ footer{
 
 
 /*podstránka desktop- PORTFOLIO!*/
+.portfolio_hero{
+    background:var(--pozadie);
+    text-align:center;
+    padding: 32px 80px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.05);
+    margin-bottom: 64px;
+}
 
-
-
+.portfolio_hero h1{
+    font-size: 32px;
+}
 
 
 }
