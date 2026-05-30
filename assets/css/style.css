@@ -677,7 +677,7 @@ footer{
     font-size: 32px;
 }
 .kontakt_formular{
-    padding: 20px 395px 20px 80px;
+    flex:1;
 }
 label{
     font-size: 14px; 
@@ -689,74 +689,30 @@ button{
     font-weight: 300;
     padding:12px 24px;
 }
-
-.grid_kontakt{
-    
+.flex_kontakt{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    padding:20px 80px;
+    gap:255px;
+    background-color: var(--pozadie);
+    box-shadow:0 2px 8px rgba(0,0,0,0.05);
+    margin-bottom: 64px;
 }
-
-
-
-
-/*
-.kontakt_formular{
-    padding: 24px 16px;
+.kontakt-obal{
+    flex: 1;
 }
-
-
 .kontakt_udaje{
-    text-align: center;
-    padding: 24px 16px;
-}
-
-
-.kontakt_udaje h2{
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: 700;
-    color:var(--nadpisy);
-    margin-bottom: 16px;
-}
-.kontakt_udaje p{
-    font-family: Inter;
-    font-size: 16px;
-    font-weight:400 ;
-    color: var(--text);
-    margin-bottom: 12px;
+    text-align: left;
+    padding-bottom: 0px;
 }
 .socialnesiete{
-    text-align: center;
-    padding: 24px 30px;
+    text-align: left;
+    padding: 24px 16px;
 }
-.socialnesiete h2{
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: 700;
-    color:var(--nadpisy);
-    margin-bottom: 16px;
-}
-
 .ikony_siete{
-    display:flex;
-    justify-content:center;
-    gap:16px;
+    justify-content: left;
 }
-
-.ikona{
-    width: 40px;
-    height: 40px;
-    background-color: var(--svetlamodra);
-    color: var(--footer);
-    border-radius:50%;
-    font-size: 18px;
-    font-family: Inter;
-    text-decoration:none;
-    box-shadow:0 4px 12px rgba(0,0,0,0.15);
-    display:flex;
-    align-items:center;
-    justify-content:center;
-}
-*/
-
 
 
 /*podstránka desktop- O MNE!*/
@@ -823,6 +779,17 @@ footer{
 
 .portfolio_hero h1{
     font-size: 32px;
+}
+
+.projekty_obrazky{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    /*gap:60px 30px;*/
+    padding:40px 238px;
+}
+
+.projekt{
+    display: block;
 }
 
 
