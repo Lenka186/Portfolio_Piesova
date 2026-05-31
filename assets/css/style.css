@@ -762,9 +762,7 @@ button{
     width:220px;
     height: 140px;
 }
-footer{
-    padding: 31px 559px;
-}
+
 
 
 
@@ -784,13 +782,37 @@ footer{
 .projekty_obrazky{
     display:grid;
     grid-template-columns:repeat(3,1fr);
-    /*gap:60px 30px;*/
+    gap:24px 32px;
     padding:40px 238px;
+    background-color: var(--pozadie);
+    box-shadow:0 2px 8px rgba(0,0,0,0.05);
+    margin-bottom: 64px;
 }
 
 .projekt{
     display: block;
 }
 
+
+.projekt img{
+    margin-bottom: 12px;
+    width: 300px;
+    height: 160px;
+}
+
+.projekt_popis h3{
+    margin-bottom: 12px;
+}
+.projekt_popis p{
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+.projekt_popis span{
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.projekt_popis button{
+    padding: 12px 24px;
+}
 
 }
