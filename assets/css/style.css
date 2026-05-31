@@ -337,6 +337,7 @@ button{
 .socialnesiete{
     text-align: center;
     padding: 24px 30px;
+    margin-bottom: 32px;
 }
 .socialnesiete h2{
     font-family: Poppins;
@@ -455,7 +456,7 @@ button{
 }
 
 .projekty_obrazky{
-    padding:40px 16px 60px;
+    padding:40px 16px;
 }
 .projekt{
     display: flex;
