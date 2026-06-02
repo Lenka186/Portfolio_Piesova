@@ -13,8 +13,8 @@
     --nadpisy:#111827;
     --footerpismo:#9CA3AF;
 
-    --font-nadpisy: 'Poppins', sans-serif;
-    --font-body: 'Inter', sans-serif;
+    --font-nadpisy: 'Poppins';
+    --font-body: 'Inter';
     
     /* Medzery (v rem!) 
     --medzery-sm: 1rem;      16px 
@@ -177,10 +177,9 @@ header{
     border-radius: 8px;
 }
 
-.projekty_tlačidlo{
+.projekty_tlacidlo{
     background-color: var(--farbahlavnamodra);
     color: var(--pozadie);
-    font-size: 16px;
     font-weight: 600;
     border: none;
     font-family: Inter;
@@ -643,7 +642,7 @@ header{
 .karty_projekty span{
     font-size: 12px;
 }
-.projekty_tlačidlo{
+.projekty_tlacidlo{
     font-size: 16px;
     padding:24px 12px;
     margin-top: 28px;
