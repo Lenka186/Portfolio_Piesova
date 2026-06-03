@@ -80,6 +80,8 @@ body{
 }
 .navigacia__link{
     color:var(--nadpisy);
+    font-family: var(--font-body);
+    font-weight: 500;
     text-decoration:none;
     padding:8px 6px;
     display:block;
