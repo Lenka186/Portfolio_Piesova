@@ -10,64 +10,69 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <header>
-        <div class="logo">LENKA</div>
-        <nav class="menu">
-            <a href="index.html" class="podstranky">Domov</a>
-            <a href="o_mne.html" class="podstranky">O mne</a>
-            <a href="portfolio.html" class="podstranky">Portfólio</a>
-            <a href="kontakt.html" class="podstranky">Kontakt</a>
+    <header class="header">
+        <div class="header__logo">LENKA</div>
+        <button class="menu-toggle" aria-label="Otvoriť menu" aria-expanded="false">
+            <span class="menu-toggle__bar"></span>
+            <span class="menu-toggle__bar"></span>
+            <span class="menu-toggle__bar"></span>
+        </button>
+        <nav class="navigacia" id="site-nav">
+            <a href="index.html" class="navigacia__link">Domov</a>
+            <a href="o_mne.html" class="navigacia__link">O mne</a>
+            <a href="portfolio.html" class="navigacia__link">Portfólio</a>
+            <a href="kontakt.html" class="navigacia__link">Kontakt</a>
         </nav>
     </header>
     
     <main>
-        <section class="kontakt_hero">
-            <h1>Kontakt</h1>
-            <p>Máte zaujímavý projekt?<br>
+        <section class="kontakt-hero">
+            <h1 class="kontakt-hero__nadpis">Kontakt</h1>
+            <p class="kontakt-hero__text">Máte zaujímavý projekt?<br>
             Napíšte mi a dohodneme sa!
             </p>
         </section>
 
-        <div class="flex_kontakt">
-            <section class="kontakt_formular">
-                <h2>Kontakt</h2>
-                <form>
-                    <label>Meno</label>
-                    <input type="text">
+        <div class="kontakt">
+            <section class="kontakt__formular-obal">
+                <h2 class="kontakt__formular-nadpis">Kontakt</h2>
+                <form class="kontakt__formular">
+                    <label class="kontakt__formular-label">Meno</label>
+                    <input type="text" class="kontakt__formular-input">
 
-                    <label>Email</label>
-                    <input type="email">
+                    <label class="kontakt__formular-label">Email</label>
+                    <input type="email" class="kontakt__formular-input">
 
-                    <label>Správa</label>
-                    <textarea></textarea>
+                    <label class="kontakt__formular-label">Správa</label>
+                    <textarea class="kontakt__formular-textarea"></textarea>
 
-                    <button type="odoslat">Odoslať správu</button>
+                    <button type="submit" class="kontakt__formular-button">Odoslať správu</button>
                 </form>
             </section>
 
-            <div class="kontakt-obal">
-                <section class="kontakt_udaje">
-                    <h2>Kontaktné údaje</h2>
-                    <p>leni.piesova@gmail.com</p>
-                    <p>+421 918 700 941</p>
+            <div class="kontakt__info-obal">
+                <section class="kontakt__udaje">
+                    <h2 class="kontakt__udaje-nadpis">Kontaktné údaje</h2>
+                    <p class="kontakt__udaje-text">leni.piesova@gmail.com</p>
+                    <p class="kontakt__udaje-text">+421 918 700 941</p>
                 </section>
 
                 <section class="socialnesiete">                    
-                    <h2>Sociálne siete/Odkazy:</h2>
-                    <div class="ikony_siete">
-                        <a href="https://www.linkedin.com/" target="_blank" class="ikona">
+                    <h2 class="socialnesiete__nadpis">Sociálne siete/Odkazy:</h2>
+                    <div class="socialnesiete__ikony">
+                        <a href="https://www.linkedin.com/" target="_blank" class="socialnesiete__ikona">
                             <i class="fa-brands fa-linkedin-in"></i>
                         </a>
 
-                        <a href="https://github.com/" target="_blank" class="ikona">
+                        <a href="https://github.com/" target="_blank" class="socialnesiete__ikona">
                             <i class="fa-brands fa-github"></i>
                         </a>
 
-                        <a href="https://instagram.com/" target="_blank" class="ikona">
+                        <a href="https://instagram.com/" target="_blank" class="socialnesiete__ikona">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
 
-                        <a href="https://facebook.com/" target="_blank" class="ikona">
+                        <a href="https://facebook.com/" target="_blank" class="socialnesiete__ikona">
                             <i class="fa-brands fa-facebook-f"></i>
                         </a>
                     </div>
@@ -76,8 +81,9 @@
         </div>
 
     </main>
-    <footer>
-            © 2026 Lenka Piešová. Všetky práva vyhradené.
+    <footer class="footer">
+        <p class="footer__text">© 2026 Lenka Piešová. Všetky práva vyhradené.</p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>

@@ -45,6 +45,58 @@ body{
     font-family: Inter;
 }
 
+/* Hamburger menu - mobile */
+.menu-toggle{
+    background:transparent;
+    border:none;
+    display:flex;
+    flex-direction:column;
+    gap:3px;
+    width:40px;
+    height:40px;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+}
+.menu-toggle__bar{
+    width:22px;
+    height:3px;
+    background:var(--nadpisy);
+    transition:transform .25s ease, opacity .2s ease;
+    border-radius:2px;
+}
+.navigacia{
+    position:absolute;
+    top:80px;
+    right:20px;
+    background:var(--pozadie);
+    box-shadow:0 10px 30px rgba(0,0,0,0.12);
+    padding:12px 16px;
+    border-radius:10px;
+    display:none;
+    flex-direction:column;
+    gap:8px;
+    z-index:1000;
+}
+.navigacia__link{
+    color:var(--nadpisy);
+    text-decoration:none;
+    padding:8px 6px;
+    display:block;
+}
+.navigacia.navigacia--open{
+    display:flex;
+}
+.menu-toggle.open .menu-toggle__bar:nth-child(1){
+    transform: translateY(6px) rotate(45deg);
+}
+.menu-toggle.open .menu-toggle__bar:nth-child(2){
+    opacity:0;
+}
+.menu-toggle.open .menu-toggle__bar:nth-child(3){
+    transform: translateY(-6px) rotate(-45deg);
+}
+
 .header__link{
     text-decoration: none;
     color: var(--nadpisy);
@@ -235,13 +287,13 @@ body{
 
 
 /*toto je podstránka KONTAKT!*/
-.kontakt_hero{
+.kontakt-hero{
     text-align: center;
     padding: 32px 16px;
 }
 
 
-.kontakt_hero h1{
+.kontakt-hero__nadpis{
     font-family: Poppins;
     font-size: 24px;
     font-weight: 700;
@@ -250,18 +302,18 @@ body{
 }
 
 
-.kontakt_hero p{
+.kontakt-hero__text{
     font-family: Inter;
     font-size: 16px;
     font-weight:400 ;
     color: var(--text);
 }
 
-.kontakt_formular{
+.kontakt__formular-obal{
     padding: 24px 16px;
 }
 
-.kontakt_formular h2{
+.kontakt__formular-nadpis{
     font-family: Poppins;
     font-size: 20px;
     font-weight: 700;
@@ -269,11 +321,11 @@ body{
     margin-bottom: 16px;
 }
 
-form{
+.kontakt__formular{
     display:flex;
     flex-direction:column;
 }
-label{
+.kontakt__formular-label{
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
@@ -281,7 +333,7 @@ label{
     margin-bottom: 16px;
     margin-top: 16px;
 }
-input{
+.kontakt__formular-input{
     padding:16px;
     background-color: var(--pozadie);
     border-radius:8px ;
@@ -289,7 +341,7 @@ input{
     font-size: 16px;
     font-family: Inter;
 }
-textarea{
+.kontakt__formular-textarea{
     padding:16px;
     background-color: var(--pozadie);
     border-radius:8px ;
@@ -299,7 +351,7 @@ textarea{
     height: 90px;
     margin-bottom: 16px;
 }
-button{
+.kontakt__formular-button{
     background-color: var(--farbahlavnamodra);
     color: var(--pozadie);
     font-size: 16px;
@@ -313,20 +365,20 @@ button{
     cursor:pointer;
 }
 
-.kontakt_udaje{
+.kontakt__udaje{
     text-align: center;
     padding: 24px 16px;
 }
 
 
-.kontakt_udaje h2{
+.kontakt__udaje-nadpis{
     font-family: Poppins;
     font-size: 20px;
     font-weight: 700;
     color:var(--nadpisy);
     margin-bottom: 16px;
 }
-.kontakt_udaje p{
+.kontakt__udaje-text{
     font-family: Inter;
     font-size: 16px;
     font-weight:400 ;
@@ -338,7 +390,7 @@ button{
     padding: 24px 30px;
     margin-bottom: 32px;
 }
-.socialnesiete h2{
+.socialnesiete__nadpis{
     font-family: Poppins;
     font-size: 20px;
     font-weight: 700;
@@ -346,13 +398,13 @@ button{
     margin-bottom: 16px;
 }
 
-.ikony_siete{
+.socialnesiete__ikony{
     display:flex;
     justify-content:center;
     gap:16px;
 }
 
-.ikona{
+.socialnesiete__ikona{
     width: 40px;
     height: 40px;
     background-color: var(--svetlamodra);
@@ -522,6 +574,27 @@ button{
 body{
     background-color: var(--sekcie);
 }
+    /* Desktop: show regular nav, hide hamburger */
+    .menu-toggle{
+        display: none;
+    }
+    .navigacia{
+        position: static;
+        top: auto;
+        right: auto;
+        background: transparent;
+        box-shadow: none;
+        padding: 0;
+        border-radius: 0;
+        display: flex !important;
+        flex-direction: row;
+        gap: 24px;
+        align-items: center;
+    }
+    .navigacia__link{
+        padding: 0;
+        color: var(--nadpisy);
+    }
 header{
     background-color: var(--pozadie);
     margin-bottom: 64px;

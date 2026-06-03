@@ -8,16 +8,20 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header>
-        <div class="logo">LENKA</div>
-        <nav class="menu">
-            <a href="index.html" class="podstranky">Domov</a>
-            <a href="o_mne.html" class="podstranky">O mne</a>
-            <a href="portfolio.html" class="podstranky">Portfólio</a>
-            <a href="kontakt.html" class="podstranky">Kontakt</a>
+    <header class="header">
+        <div class="header__logo">LENKA</div>
+        <button class="menu-toggle" aria-label="Otvoriť menu" aria-expanded="false">
+            <span class="menu-toggle__bar"></span>
+            <span class="menu-toggle__bar"></span>
+            <span class="menu-toggle__bar"></span>
+        </button>
+        <nav class="navigacia" id="site-nav">
+            <a href="index.html" class="navigacia__link">Domov</a>
+            <a href="o_mne.html" class="navigacia__link">O mne</a>
+            <a href="portfolio.html" class="navigacia__link">Portfólio</a>
+            <a href="kontakt.html" class="navigacia__link">Kontakt</a>
         </nav>
     </header>
-    
     <main>
         <section class="omne_hero">
             <img src="assets/images/profil.jpg" alt="Lenka">
@@ -64,9 +68,9 @@
         </section>
     </main>
 
-    <footer>
-            © 2026 Lenka Piešová. Všetky práva vyhradené.
+    <footer class="footer">
+        <p class="footer__text">© 2026 Lenka Piešová. Všetky práva vyhradené.</p>
     </footer>
-
+    <script src="js/script.js"></script>
 </body>
 </html>
