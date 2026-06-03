@@ -738,30 +738,30 @@ body{
 
 
 /*podstránka KONTAKT DESKTOP*/
-.kontakt_hero{
+.kontakt-hero{
     background:var(--pozadie);
     text-align:center;
     padding: 32px 80px;
     box-shadow:0 2px 8px rgba(0,0,0,0.05);
     margin-bottom: 64px;
 }
-.kontakt_hero h1{
+.kontakt-hero__nadpis{
     font-size: 32px;
 }
-.kontakt_formular{
+.kontakt__formular-obal{
     flex:1;
 }
-label{
+.kontakt__formular-label{
     font-size: 14px; 
 }
-textarea{
+.kontakt__formular-textarea{
     height: 120px;
 }
-button{
+.kontakt__formular-button{
     font-weight: 300;
     padding:12px 24px;
 }
-.flex_kontakt{
+.kontakt__obal{
     display:flex;
     justify-content:space-between;
     align-items:flex-start;
@@ -771,10 +771,10 @@ button{
     box-shadow:0 2px 8px rgba(0,0,0,0.05);
     margin-bottom: 64px;
 }
-.kontakt-obal{
+.kontakt__info-obal{
     flex: 1;
 }
-.kontakt_udaje{
+.kontakt__udaje{
     text-align: left;
     padding-bottom: 0px;
 }
@@ -782,13 +782,13 @@ button{
     text-align: left;
     padding: 24px 16px;
 }
-.ikony_siete{
+.socialnesiete__ikony{
     justify-content: left;
 }
 
 
 /*podstránka desktop- O MNE!*/
-.omne_hero{
+.omne{
     display:flex;
     justify-content:center;
     align-items:center;
@@ -799,38 +799,37 @@ button{
     box-shadow:0 2px 8px rgba(0,0,0,0.05);
     margin-bottom: 64px;
 }
-.omne_hero img{
+.omne__obrazok{
     width:160px;
     height:160px;
     margin-bottom:0px;
 }
-.omne_hero h1{
+.omne__nadpis{
     font-size: 32px;
     margin-bottom: 16px;
 }
-.omne_hero p{
+.omne__text{
     max-width: 382px;
 }
 
-.omne_zrucnosti{
+.zrucnosti{
     padding:50px 400px;
     margin-bottom: 64px;
     box-shadow:0 2px 8px rgba(0,0,0,0.05);
 }
-.omne_zrucnosti h2{
+.zrucnosti__nadpis{
     font-size: 24px;
     margin-bottom: 36px;
 }
 
 .grid_zrucnosti{
     grid-template-columns:repeat(3,1fr);
-    /*margin:0 auto;*/
     gap:24px;;
 }
-.zrucnost{
+.zrucnosti__karta{
     border-radius: 12px;
 }
-.zrucnost img{
+.zrucnosti__obrazok{
     width:220px;
     height: 140px;
 }
@@ -839,7 +838,7 @@ button{
 
 
 /*podstránka desktop- PORTFOLIO!*/
-.portfolio_hero{
+.portfolio-hero{
     background:var(--pozadie);
     text-align:center;
     padding: 32px 80px;
@@ -847,11 +846,11 @@ button{
     margin-bottom: 64px;
 }
 
-.portfolio_hero h1{
+.portfolio-hero__nadpis{
     font-size: 32px;
 }
 
-.projekty_obrazky{
+.portfolio-projekty{
     display:grid;
     grid-template-columns:repeat(3,1fr);
     gap:24px 32px;
@@ -861,29 +860,29 @@ button{
     margin-bottom: 64px;
 }
 
-.projekt{
+.projekt-karta{
     display: block;
 }
 
 
-.projekt img{
+.projekt-karta__obrazok{
     margin-bottom: 12px;
     width: 300px;
     height: 160px;
 }
 
-.projekt_popis h3{
+.projekt-karta__nadpis{
     margin-bottom: 12px;
 }
-.projekt_popis p{
+.projekt-karta__text{
     margin-bottom: 12px;
     font-size: 16px;
 }
-.projekt_popis span{
+.projekt-karta__nastroj{
     font-size: 14px;
     margin-bottom: 12px;
 }
-.projekt_popis button{
+.projekt-karta__tlacidlo{
     padding: 12px 24px;
 }
 
