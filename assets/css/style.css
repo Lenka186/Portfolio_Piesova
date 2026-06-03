@@ -233,7 +233,7 @@ body{
     background-color: var(--farbahlavnamodra);
     color: var(--pozadie);
     font-weight: 600;
-    text-decoration: none;
+    border: none;
     font-family: Inter;
     padding:12px 20px;
     border-radius:8px;
@@ -421,26 +421,26 @@ body{
 
 
 /*toto je podstránka O MNE!*/
-.omne_hero{
+.omne{
     text-align: center;
     padding: 32px 16px;
     background-color: var(--sekcie);
 }
-.omne_hero img{
+.omne__obrazok{
     width:120px;
     height:120px;
     border-radius:50%;
     object-fit:cover;
     margin-bottom:16px;
 }
-.omne_hero h1{
+.omne__nadpis{
     font-family: Poppins;
     font-size: 24px;
     font-weight: 700;
     color:var(--nadpisy);
     margin-bottom: 16px;
 }
-.omne_hero p{
+.omne__text{
     font-family: Inter;
     font-size: 16px;
     font-weight:400 ;
@@ -448,11 +448,11 @@ body{
     margin: 0px;
 }
 
-.omne_zrucnosti{
+.zrucnosti{
     background-color: var(--pozadie);
     padding:32px 23px 32px;
 }
-.omne_zrucnosti h2{
+.zrucnosti__nadpis{
     text-align:center;
     font-family: Poppins;
     font-size: 22px;
@@ -468,13 +468,13 @@ body{
     gap: 16px;
 }
 
-.zrucnost{
+.zrucnosti__karta{
     background-color: var(--pozadie);
     border-radius:12px;
     overflow:hidden;
     box-shadow:0 4px 12px rgba(0,0,0,0.15);
 }
-.zrucnost img{                                 
+.zrucnosti__obrazok{                                 
     width:164px;
     height: 120px;
     display:block;
@@ -485,20 +485,20 @@ body{
 
 /*toto je podstránka PORTFÓLIO!*/
 
-.portfolio_hero{
+.portfolio-hero{
     text-align: center;
     padding: 32px 16px;
     background-color: var(--sekcie);
     box-shadow:0 2px 8px rgba(0,0,0,0.05);
 }
-.portfolio_hero h1{
+.portfolio-hero__nadpis{
     font-family: Poppins;
     font-size: 24px;
     font-weight: 700;
     color:var(--nadpisy);
     margin-bottom: 16px;
 }
-.portfolio_hero p{
+.portfolio-hero__text{
     font-family: Inter;
     font-size: 16px;
     font-weight:400 ;
@@ -506,17 +506,17 @@ body{
     margin: 0px;
 }
 
-.projekty_obrazky{
+.portfolio-projekty{
     padding:40px 16px;
 }
-.projekt{
+.projekt-karta{
     display: flex;
     gap: 16px;
     margin-bottom: 16px;
     align-items:flex-start;
 }
 
-.projekt img{
+.projekt-karta__obrazok{
     width: 120px;
     height: 120px;
     border-radius: 8px;
@@ -524,10 +524,10 @@ body{
     box-shadow:0 4px 10px rgba(0,0,0,0.10);
 }
 
-.projekt_popis{
+.projekt-karta__popis{
     margin-bottom: 18px;
 }
-.projekt_popis h3{
+.projekt-karta__nadpis{
     color: var(--footer);
     font-size: 18px;
     font-family: Inter;
@@ -536,14 +536,14 @@ body{
     margin-top: 0px;
 }
 
-.projekt_popis p{
+.projekt-karta__text{
     color: var(--text);
     font-size: 14px;
     font-family: Inter;
     font-weight: 400;
     margin-bottom: 8px;
 }
-.projekt_popis span{
+.projekt-karta__nastroj{
     display: block;
     color: var(--text);
     font-size: 13px;
@@ -551,7 +551,7 @@ body{
     font-weight: 300;
     margin-bottom: 8px;
 }
-.projekt_popis button{
+.projekt-karta__tlacidlo{
     background-color: var(--farbahlavnamodra);
     color: var(--pozadie);
     font-size: 12px;
