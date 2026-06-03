@@ -595,25 +595,24 @@ body{
         padding: 0;
         color: var(--nadpisy);
     }
-header{
+.header{
     background-color: var(--pozadie);
     margin-bottom: 64px;
 }
-.logo{
+.header__logo{
     margin-left: 80px;
-}
-.menu{
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-    margin-right: 80px;
-}
-.logo{
     color:var(--farbahlavnamodra);
     font-size:20px;
     font-weight:800;
     font-family: Inter;
 }
+.navigacia{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-right: 80px;
+}
+
 .hero{
     background:var(--pozadie);
     text-align:center;
@@ -622,7 +621,7 @@ header{
     margin-bottom: 64px;
 }
 
-.hero h1{
+.hero__nadpis{
     font-size:48px;
     color:var(--nadpisy);
     font-weight:700;
@@ -630,7 +629,7 @@ header{
     margin-bottom:16px;
 }
 
-.hero p{
+.hero__text{
     font-size:20px;
     font-family: Poppins;
     font-weight: 300;
@@ -638,7 +637,7 @@ header{
     margin:16px;
 }
 
-.hero_button{
+.hero__button{
     background-color:var(--farbahlavnamodra);
     color:var(--pozadie);
     box-shadow:0 2px 4px rgba(0,0,0,0.10);
@@ -652,7 +651,7 @@ header{
     margin-bottom: 64px;
 }
 
-.o_mne h2{
+.o_mne__nadpis{
     color: var(--nadpisy);
     font-family: Poppins;
     font-size: 28px;
@@ -661,7 +660,7 @@ header{
 }
 
 
-.o_mne p{
+.o_mne__text{
     font-family: Poppins;
     color: var(--text);
     font-size: 16px;
@@ -670,7 +669,7 @@ header{
 }
 
 
-.o_mne_button{
+.o_mne__button{
     background-color: var(--farbahlavnamodra);
     color: var(--pozadie);
     padding:24px 12px;
@@ -685,37 +684,37 @@ header{
     align-items: center;
     margin-bottom: 64px;
 }
-.projekty h2{
+.projekty__nadpis{
     text-align: center;
     margin-bottom: 28px;
 }
-.karty_projekty{
+.karty-projekty{
     background-color: var(--sekcie);
     box-shadow: none;
     padding: 0px;
     border-radius: 0px;
     margin-bottom: 0px;
 }
-.desktop_projekty{
+.desktop__projekty{
     display: flex;
     flex-direction: row;
     gap: 24px;
     justify-content: center;
 }
-.karty_projekty img{
+.projekty__obrazok{
     width:300px;
     height:160px;
     object-fit:cover;
     border-radius: 8px;
 }
 
-.karty_projekty p{
+.projekty__popis p{
     font-size: 14px;
 }
-.karty_projekty span{
+.projekty__nastroj{
     font-size: 12px;
 }
-.projekty_tlacidlo{
+.projekty__tlacidlo{
     font-size: 16px;
     padding:24px 12px;
     margin-top: 28px;
@@ -726,14 +725,14 @@ header{
     box-shadow:0 2px 8px rgba(0,0,0,0.05);
     margin-bottom: 64px;
 }
-.kontakt h2{
+.kontakt__nadpis{
     margin-bottom: 16px;
 }
-.kontakt_button{
+.kontakt__button{
     box-shadow:0 2px 8px rgba(0,0,0,0.05);
     padding:24px 12px;
 }
-footer{
+.footer{
     padding: 31px 559px;
 }
 
