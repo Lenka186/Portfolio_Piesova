@@ -15,13 +15,77 @@
 
     --font-nadpisy: 'Poppins';
     --font-body: 'Inter';
+
+    /* FONT WEIGHT
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+    --fw-extra-bold: 800;
+
+    FONT SIZE MOBILE 
+    --fs-small: 14px;
+    --fs-base: 16px;
+    --fs-medium: 18px;
+    --fs-subtitle: 20px;
+    --fs-heading: 24px;
+
+    FONT SIZE DESKTOP
+    --fs-heading-desktop: 32px;
+    --fs-hero-desktop: 48px;
+    --fs-text-desktop: 20px;
+
+    SPACING
+    --space-xs: 8px;
+    --space-sm: 12px;
+    --space-md: 16px;
+    --space-lg: 24px;
+    --space-xl: 32px;
+    --space-2xl: 48px;
+    --space-3xl: 64px;
+    --space-4xl: 80px;
+
+    BORDER RADIUS 
+    --radius-xs: 2px;
+    --radius-sm: 8px;
+    --radius-md: 10px;
+    --radius-lg: 12px;
+    --radius-round: 50%;
+
+    SHADOWS 
+    --shadow-small: 0 2px 8px rgba(0,0,0,0.05);
+    --shadow-medium: 0 4px 10px rgba(0,0,0,0.10);
+    --shadow-large: 0 4px 12px rgba(0,0,0,0.15);
+    --shadow-menu: 0 10px 30px rgba(0,0,0,0.12);
+
+    HEADER
+    --header-height: 80px;
+
+    IKONY
+    --icon-size: 40px;
+
+    OBRÁZKY
+    --project-image-mobile-width: 120px;
+    --project-image-mobile-height: 120px;
+
+    --project-image-desktop-width: 300px;
+    --project-image-desktop-height: 160px;
+
+    --skill-image-mobile-width: 164px;
+    --skill-image-mobile-height: 120px;
+
+    --skill-image-desktop-width: 220px;
+    --skill-image-desktop-height: 140px; */
+
+    /* Medzery */
+    --medzery-xs: 1rem;      /*16px */
+    --medzery-s: 1.25rem;    /*20px */
+    --medzery-m: 1.5rem;     /*24px */
+    --medzery-l: 2rem;       /*32px */
+    --medzery-xl: 3rem;      /*48px */
+    --medzery-xxl: 4rem;     /*64px */
     
-    /* Medzery (v rem!) 
-    --medzery-sm: 1rem;      16px 
-    --medzery-md: 1.5rem;     24px 
-    --medzery-lg: 3rem;      48px 
-    --medzery-xl: 4rem;       64px 
-    */
 }
 
 body{
