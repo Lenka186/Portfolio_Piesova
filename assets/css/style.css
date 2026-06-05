@@ -652,10 +652,7 @@ body{
 }
 .header__logo{
     margin-left: 80px;
-    color:var(--farbahlavnamodra);
     font-size:var(--font-size-xl);
-    font-weight:var(--font-weight-extra-bold);
-    font-family: var(--font-body);
 }
 .navigacia{
     display: flex;
@@ -675,17 +672,11 @@ body{
 .hero__nadpis{
     font-size:var(--font-size-hero-desktop);
     color:var(--nadpisy);
-    font-weight:var(--font-weight-bold);
-    font-family: var(--font-nadpisy);
-    margin-bottom: var(--medzery-m);
 }
 
 .hero__text{
     font-size:var(--font-size-xl);
-    font-family: var(--font-nadpisy);
-    font-weight: var(--font-weight-light);
     color: var(--text);
-    margin:var(--medzery-m);
 }
 
 .hero__button{
@@ -703,20 +694,13 @@ body{
 }
 
 .o_mne__nadpis{
-    color: var(--nadpisy);
-    font-family: var(--font-nadpisy);
     font-size: var(--font-size-mensi-nadpis-desktop);
-    font-weight: var(--font-weight-bold);
     margin-bottom: var(--medzery-m);
 }
 
 
 .o_mne__text{
-    font-family:var(--font-nadpisy);
-    color: var(--text);
-    font-size: var(--font-size-m);
     padding: 0px;
-    font-weight: var(--font-weight-regular);
 }
 
 
@@ -755,18 +739,15 @@ body{
 .projekty__obrazok{
     width:300px;
     height:160px;
-    object-fit:cover;
-    border-radius: var(--border-radius-sm);
 }
 
-.projekty__popis p{
+.projekty__popis{
     font-size: var(--font-size-s);
 }
 .projekty__nastroj{
     font-size: var(--font-size-xs);
 }
 .projekty__tlacidlo{
-    font-size: var(--font-size-m);
     padding:24px 12px;
     margin-top: var(--medzery-lg);
 }
@@ -791,7 +772,6 @@ body{
 /*podstránka KONTAKT DESKTOP*/
 .kontakt-hero{
     background:var(--pozadie);
-    text-align:center;
     padding: 32px 80px;
     box-shadow:var(--shadow-s);
     margin-bottom: var(--medzery-3xl);
@@ -857,7 +837,6 @@ body{
 }
 .omne__nadpis{
     font-size: var(--font-size-nadpis-desktop);
-    margin-bottom: var(--medzery-m);
 }
 .omne__text{
     max-width: 382px;
@@ -877,9 +856,7 @@ body{
     grid-template-columns:repeat(3,1fr);
     gap:24px;;
 }
-.zrucnosti__karta{
-    border-radius: var(--border-radius-lg);
-}
+
 .zrucnosti__obrazok{
     width:220px;
     height: 140px;
@@ -891,9 +868,7 @@ body{
 /*podstránka desktop- PORTFOLIO!*/
 .portfolio-hero{
     background:var(--pozadie);
-    text-align:center;
     padding: 32px 80px;
-    box-shadow:var(--shadow-s);
     margin-bottom: var(--medzery-3xl);
 }
 
