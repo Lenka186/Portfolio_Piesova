@@ -12,10 +12,14 @@
     --text: #374151;
     --nadpisy:#111827;
     --footerpismo:#9CA3AF;
+    
+    /*ROZMERY HEADERU A IKON*/
+    --header-height: 80px;
+    --ikony-size: 40px;
 
     /*FONT FAMILY*/
-    --font-nadpisy: 'Poppins';
-    --font-body: 'Inter';
+    --font-nadpisy: 'Poppins', sans-serif;
+    --font-body: 'Inter', sans-serif;
 
     /*FONT WEIGHT*/
     --font-weight-light: 300;
@@ -79,7 +83,7 @@ body{
 
 /*domovská stránka!!*/
 .header{
-    height:80px;
+    height:var(--header-height);
     background:var(--header);
     display:flex;
     justify-content:space-between;
@@ -101,8 +105,8 @@ body{
     display:flex;
     flex-direction:column;
     gap:2px;
-    width:40px;
-    height:40px;
+    width:var(--ikony-size);
+    height:var(--ikony-size);
     align-items:center;
     justify-content:center;
     cursor:pointer;
@@ -116,7 +120,7 @@ body{
 }
 .navigacia{
     position:absolute;
-    top:80px;
+    top:var(--header-height);
     right:20px;
     background:var(--pozadie);
     box-shadow:var(--shadow-menu);
@@ -124,7 +128,7 @@ body{
     border-radius:var(--border-radius-md);
     display:none;
     flex-direction:column;
-    gap:8px;
+    gap:var(--medzery-xs);
     z-index:1000;
 }
 .navigacia__link{
@@ -283,7 +287,7 @@ body{
 .projekty__tlacidlo{
     background-color: var(--farbahlavnamodra);
     color: var(--pozadie);
-    font-weight: 600;
+    font-weight: var(--font-weight-semibold);
     border: none;
     font-family: var(--font-body);
     padding:12px 20px;
@@ -452,12 +456,12 @@ body{
 .socialnesiete__ikony{
     display:flex;
     justify-content:center;
-    gap:16px;
+    gap:var(--medzery-m);
 }
 
 .socialnesiete__ikona{
-    width: 40px;
-    height: 40px;
+    width: var(--ikony-size);
+    height: var(--ikony-size);
     background-color: var(--svetlamodra);
     color: var(--footer);
     border-radius:var(--border-radius-round);
@@ -516,7 +520,7 @@ body{
 .grid_zrucnosti{
     display:grid;
     grid-template-columns:1fr 1fr;
-    gap: 16px;
+    gap: var(--medzery-m);
 }
 
 .zrucnosti__karta{
@@ -562,7 +566,7 @@ body{
 }
 .projekt-karta{
     display: flex;
-    gap: 16px;
+    gap: var(--medzery-m);
     margin-bottom: var(--medzery-m);
     align-items:flex-start;
 }
@@ -639,7 +643,7 @@ body{
         border-radius: 0;
         display: flex !important;
         flex-direction: row;
-        gap: 24px;
+        gap: var(--medzery-l);
         align-items: center;
     }
     .navigacia__link{
@@ -651,13 +655,13 @@ body{
     margin-bottom: var(--medzery-3xl);
 }
 .header__logo{
-    margin-left: 80px;
+    margin-left: var(--medzery-4xl);
     font-size:var(--font-size-xl);
 }
 .navigacia{
     display: flex;
     flex-direction: row;
-    gap: 24px;
+    gap: var(--medzery-l);
     margin-right: var(--medzery-4xl);
 }
 
@@ -733,7 +737,7 @@ body{
 .desktop__projekty{
     display: flex;
     flex-direction: row;
-    gap: 24px;
+    gap: var(--medzery-l);
     justify-content: center;
 }
 .projekty__obrazok{
@@ -854,7 +858,7 @@ body{
 
 .grid_zrucnosti{
     grid-template-columns:repeat(3,1fr);
-    gap:24px;;
+    gap: var(--medzery-l);
 }
 
 .zrucnosti__obrazok{
