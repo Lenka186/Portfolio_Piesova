@@ -13,81 +13,61 @@
     --nadpisy:#111827;
     --footerpismo:#9CA3AF;
 
+    /*FONT FAMILY*/
     --font-nadpisy: 'Poppins';
     --font-body: 'Inter';
 
-    /* FONT WEIGHT
-    --fw-light: 300;
-    --fw-regular: 400;
-    --fw-medium: 500;
-    --fw-semibold: 600;
-    --fw-bold: 700;
-    --fw-extra-bold: 800;
-
-    FONT SIZE MOBILE 
-    --fs-small: 14px;
-    --fs-base: 16px;
-    --fs-medium: 18px;
-    --fs-subtitle: 20px;
-    --fs-heading: 24px;
-
-    FONT SIZE DESKTOP
-    --fs-heading-desktop: 32px;
-    --fs-hero-desktop: 48px;
-    --fs-text-desktop: 20px;
-
-    SPACING
-    --space-xs: 8px;
-    --space-sm: 12px;
-    --space-md: 16px;
-    --space-lg: 24px;
-    --space-xl: 32px;
-    --space-2xl: 48px;
-    --space-3xl: 64px;
-    --space-4xl: 80px;
-
-    BORDER RADIUS 
-    --radius-xs: 2px;
-    --radius-sm: 8px;
-    --radius-md: 10px;
-    --radius-lg: 12px;
-    --radius-round: 50%;
-
-    SHADOWS 
-    --shadow-small: 0 2px 8px rgba(0,0,0,0.05);
-    --shadow-medium: 0 4px 10px rgba(0,0,0,0.10);
+    /*FONT WEIGHT*/
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extra-bold: 800;
+    
+    /* SHADOWS */
+    --shadow-s: 0 2px 8px rgba(0,0,0,0.05);
+    --shadow-m: 0 4px 10px rgba(0,0,0,0.10);
     --shadow-large: 0 4px 12px rgba(0,0,0,0.15);
     --shadow-menu: 0 10px 30px rgba(0,0,0,0.12);
 
-    HEADER
-    --header-height: 80px;
+    /* FONT SIZE- MOBIL*/ 
+    --font-size-xs:0.75rem ;        /* 12px */
+    --font-size-s:0.875rem ;        /* 14px */
+    --font-size-m: 1rem ;        /* 16px */
+    --font-size-l:1.125rem ;        /* 18px */
+    --font-size-xl: 1.25rem;       /* 20px */
+    --font-size-xxl: 1.5rem;      /* 24px */
 
-    IKONY
-    --icon-size: 40px;
+    /* FONT SIZE DESKTOP */
+    --font-size-heading-desktop: 2rem;      /* 32px */
+    --font-size-hero-desktop: 3rem;        /* 48px */
+    --font-size-text-desktop: 1.25rem;       /* 20px */
 
-    OBRÁZKY
-    --project-image-mobile-width: 120px;
-    --project-image-mobile-height: 120px;
+    /*MEDZERY*/
+    --medzery-xs: 0.5rem;          /* 8px */
+    --medzery-s: 0.75rem;          /* 12px */
+    --medzery-sm: 0.875rem;        /* 14px */  
+    --medzery-m: 1rem;          /* 16px */
+    --medzerry-ml: 1.125rem;        /* 18px */
+    --medzery-md: 1.25rem;        /* 20px */
+    --medzery-l: 1.5rem;          /* 24px */
+    --medzery-xl: 2rem;         /* 32px */
+    --medzery-2xl:3rem ;        /* 48px */
+    --medzery-3xl: 4rem;        /* 64px */
+    --medzery-4xl: 5rem;        /* 80px */
 
-    --project-image-desktop-width: 300px;
-    --project-image-desktop-height: 160px;
+    /*BORDER RADIUS*/
+    --border-radius-xs: 0.125rem;        /* 2px */
+    --border-radius-sm: 0.5rem;        /* 8px */
+    --border-radius-md: 0.625rem;       /* 10px */
+    --border-radius-lg: 0.75rem;       /* 12px */
+    --border-radius-round: 50%;
 
-    --skill-image-mobile-width: 164px;
-    --skill-image-mobile-height: 120px;
-
-    --skill-image-desktop-width: 220px;
-    --skill-image-desktop-height: 140px; */
-
-    /* Medzery */
-    --medzery-xs: 1rem;      /*16px */
-    --medzery-s: 1.25rem;    /*20px */
-    --medzery-m: 1.5rem;     /*24px */
-    --medzery-l: 2rem;       /*32px */
-    --medzery-xl: 3rem;      /*48px */
-    --medzery-xxl: 4rem;     /*64px */
-    
 }
 
+
+/* ==================== MOBILE (do 767px) ==================== */
 body{
     background-color: var(--pozadie);
 }
